@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gallery — Sabor Village</title>
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-INSERT_HASH_HERE"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- Lightbox2 CSS -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container" style="display:flex; align-items:center;">
+      <div class="site-brand">
+        <h1>Sabor Village — Gallery</h1>
+      </div>
+      <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false">☰</button>
+      <nav id="main-nav" class="nav" role="navigation" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="attractions.html">Attractions</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Gallery — Moments of Sabor Village</h2>
+      <p>Here’s a collection of our cherished moments: celebrations, academic milestones, community gatherings, and the beauty of our surroundings. Click any photo to view larger.</p>
+
+      <div class="gallery-grid" style="margin-top:1rem;">
+        <a href="images/photo1_large.jpg" data-lightbox="sabor-gallery" data-title="Forest Hills at Sunrise">
+          <img src="images/pexels-heinz-reisenhofer-2155138929-33898230.jpg" alt="Forest hills view" height="300" width="500">
+        </a>
+        <a href="images/photo2_large.jpg" data-lightbox="sabor-gallery" data-title="Outdoor Study Sessions">
+          <img src="images/pexels-keira-burton-6146978.jpg" alt="Students studying outdoors">
+        </a>
+        <a href="images/photo3_large.jpg" data-lightbox="sabor-gallery" data-title="Community Gathering Celebration">
+          <img src="images/pexels-felipe-silveira-1513273-2932418.jpg" alt="Community gathering celebration">
+        </a>
+        <a href="images/photo4_large.jpg" data-lightbox="sabor-gallery" data-title="Traditional Dance & Culture">
+          <img src="images/pexels-renni-33927040.jpg" alt="Traditional dance">
+        </a>
+      </div>
+
+      <div class="card" style="margin-top:1.5rem;">
+        <h3>Stories Behind the Photos</h3>
+        <ul>
+          <li><strong>Forest Hills at Sunrise</strong> — The ridge that meets the dawn in Rangwe.</li>
+          <li><strong>Outdoor Study Sessions</strong> — Students learning under nature’s canopy.</li>
+          <li><strong>Community Gathering Celebration</strong> — Past Annual Come Together: dance, food, voices in laughter.</li>
+          <li><strong>Traditional Dance & Culture</strong> — Colours, rhythms, garments that tell our stories.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container" style="padding:1rem 0;">
+      <div style="margin-bottom:1rem; text-align:center;">
+        <small>&copy; Sabor Village • Rangwe, Homa Bay • United by heritage, strength & love</small>
+      </div>
+      <div class="social-media" style="text-align:center;">
+        <a href="https://www.facebook.com/YOURPAGE" target="_blank" class="social-icon facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+        <a href="https://twitter.com/YOURPROFILE" target="_blank" class="social-icon twitter"><i class="fab fa-twitter"></i> Twitter</a>
+        <a href="https://wa.me/YOURNUMBER" target="_blank" class="social-icon whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox2 JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+  <!-- Your main JS -->
+  <script src="main.js"></script>
+</body>
+</html>
+

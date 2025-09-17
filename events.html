@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Events — Sabor Village</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container" style="display:flex; align-items:center;">
+      <div class="site-brand">
+        <h1>Events — Annual Come Together</h1>
+      </div>
+      <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false">☰</button>
+      <nav id="main-nav" class="nav" role="navigation" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="attractions.html">Attractions</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="events.html">Events</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card event">
+      <div>
+        <h2>Upcoming Event — Annual “Come Together” Celebration</h2>
+        <p><strong>Date:</strong> 27 December (every year)</p>
+        <p>Join us for our beloved <em>Come Together</em> — filled with reunion, joy, and growth. Expect student awards, storytelling, forest walks, cooking, entertainment, parties, and community meetups. It’s our time to celebrate heritage, families, and future together.</p>
+      </div>
+
+      <!-- Photo evidence of past celebrations -->
+      <div class="gallery-grid" style="margin-top:1rem;">
+        <img src="images/pexels-arturoaez225-12740192.jpg" alt="People dancing and celebrating together" height="400" width="600">
+        <img src="images/pexels-sephina-cornwall-759251776-33905508.jpg" alt="Community gathering outdoors">
+        <img src="images/pexels-thisisjooh-33931336.jpg" alt="Children smiling at event">
+      </div>
+
+      <!-- Progress and Contributions Section -->
+      <div class="card" style="margin-top:1.5rem; background:#eef7ef; border-left:4px solid var(--green-forest);">
+        <h3>Progress & Pledges</h3>
+        <ul>
+          <li><strong>Venue preparation:</strong> Forest clearing & seating arrangements — <em>80% done</em></li>
+          <li><strong>Food & catering donations:</strong> Pledged by 5 families; still need fruits, grains & cooking supplies</li>
+          <li><strong>Academic & performance awards:</strong> 20 students nominated so far</li>
+          <li><strong>Entertainment & Parties:</strong> 3 music/dance groups confirmed</li>
+          <li><strong>Community Meetups:</strong> Weekly planning sessions are ongoing</li>
+        </ul>
+      </div>
+
+      <!-- Organizers contact sub-section -->
+      <div class="card" style="margin-top:1.5rem;">
+        <h3>Reach the Event Organizers</h3>
+        <p>If you’d like to help, participate, offer supplies, perform, or have suggestions, we’d love to hear from you:</p>
+        <form id="organizerContactForm" class="contact-form" method="POST" data-netlify="true" netlify-honeypot="bot-field" style="max-width:500px;">
+          <input type="hidden" name="form-name" value="organizerForm">
+          <p style="display:none"><label>Don’t fill this out: <input name="bot-field"></label></p>
+
+          <div class="form-row">
+            <label for="org-name">Your Name</label>
+            <input id="org-name" name="orgName" type="text" placeholder="Full Name" required>
+          </div>
+          <div class="form-row">
+            <label for="org-email">Email Address</label>
+            <input id="org-email" name="orgEmail" type="email" placeholder="you@example.com" required>
+          </div>
+          <div class="form-row">
+            <label for="org-phone">Phone Number</label>
+            <input id="org-phone" name="orgPhone" type="tel" placeholder="+254 7xx xxx xxx" required>
+          </div>
+          <div class="form-row">
+            <label for="org-role">Your Role / Relation</label>
+            <input id="org-role" name="orgRole" type="text" placeholder="Saborian, Volunteer, Sponsor, Guest..." required>
+          </div>
+          <div class="form-row">
+            <button type="submit" class="primary">Send Message to Organizers</button>
+            <div class="form-status" aria-live="polite" style="margin-top:0.5rem;"></div>
+          </div>
+        </form>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>&copy; Sabor Village • Rangwe, Homa Bay • Built with love</small>
+      <div class="social-media" style="margin-top:1rem;">
+        <a href="https://www.facebook.com/YOURPAGE" target="_blank" class="social-icon facebook">Facebook</a>
+        <a href="https://twitter.com/YOURPROFILE" target="_blank" class="social-icon twitter">Twitter</a>
+        <a href="https://wa.me/YOURNUMBER" target="_blank" class="social-icon whatsapp">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
+
+
