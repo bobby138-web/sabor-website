@@ -25,7 +25,7 @@ It demonstrates the use of **HTML5, CSS3, and JavaScript** to create a productio
 - Netlify for deployment
 
 ## 🚀 Live Website
-👉 [Visit the website here](https://sabor-website.netlify.app)
+👉 [Visit the website here](https://fabulous-taffy-c2ae49.netlify.app/attractions)
 
 ## 📁 Project Structure
 
